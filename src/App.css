@@ -7,3 +7,8 @@ body{
   color: rgb(189, 192, 194);
 }
 
+#head-image{
+  border: solid black 5px;
+  padding: 20px;
+}
+
