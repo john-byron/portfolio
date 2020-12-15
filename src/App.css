@@ -12,3 +12,12 @@ body{
   padding: 20px;
 }
 
+.main-text{
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+
+
+#about-title{
+  text-align: left;
+}
