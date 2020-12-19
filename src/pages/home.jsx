@@ -8,7 +8,7 @@ import {
 
 import './App.css';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <h1 className="title" id="title">Background Ministries</h1>
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
