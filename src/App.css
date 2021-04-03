@@ -4,7 +4,9 @@ body{
   color: rgb(189, 192, 194);
 }
 
-
+.navbar{
+  list-style: none;
+}
 
 #subtitle{
   transform: translate(0px, -25px);

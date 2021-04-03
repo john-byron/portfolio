@@ -17,7 +17,7 @@ import "./App.css";
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="navbar">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -35,7 +35,7 @@ export default function App() {
           
           
           
-          <Route path='/' component={Home}/>
+          <Route path='/' exact component={Home}/>
         </Switch>
       </div>
     </Router>
