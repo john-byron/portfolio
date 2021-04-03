@@ -4,8 +4,20 @@ body{
   color: rgb(189, 192, 194);
 }
 
-.navbar{
-  list-style: none;
+.navbar ul{
+  list-style-type: none;
+  color: aliceblue;
+  display: flex;
+  padding-left: 200px;
+}
+
+.navbar li{
+  padding: 25px;
+  border-right: silver 3px solid;
+  border-left: black 3px solid;
+  background-color: white;
+  border-color: silver;
+  
 }
 
 #subtitle{
