@@ -1,11 +1,10 @@
 body{
   background-color: rgb(18, 46, 73);
-}
-
-.App {
   text-align: center;
   color: rgb(189, 192, 194);
 }
+
+
 
 #subtitle{
   transform: translate(0px, -25px);
@@ -28,16 +27,7 @@ body{
   
 }
 
-#laptop{
-  grid-area: #area1;
-  margin-left: 50px;
-}
 
-#serve{
-  grid-area: #area2;
-  margin-right: 50px;
-
-}
 
 .main-text{
   padding-left: 3.5em;
