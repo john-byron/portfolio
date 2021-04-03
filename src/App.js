@@ -10,6 +10,7 @@ import {
 
 import Home from './pages/Home';
 import About from './pages/About';
+import FFA from './pages/FFA';
 
 import "./App.css";
 
@@ -26,12 +27,13 @@ export default function App() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/topics">Topics</Link>
+            <Link to="/ffa">Help With Fundraising</Link>
           </li>
         </ul>
 
         <Switch>
           <Route path='/about' component={About}/>
+          <Route path='/ffa' component={FFA}/>
           
           
           
