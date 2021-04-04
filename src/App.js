@@ -12,6 +12,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import FFA from './pages/FFA';
 import Counseling from './pages/Counseling';
+import StatementOfFaith from './pages/StatementOfFaith';
+
 import "./App.css";
 
 
@@ -33,12 +35,16 @@ export default function App() {
           <li>
             <Link to="/counseling">Counseling</Link>
           </li>
+          <li>
+            <Link to="/statement">Statement of Faith</Link>
+          </li>
         </ul>
 
         <Switch>
           <Route path='/about' component={About}/>
           <Route path='/ffa' component={FFA}/>
           <Route path='/counseling' component={Counseling}/>
+          <Route path='/statement' component={StatementOfFaith}/>
           
           
           

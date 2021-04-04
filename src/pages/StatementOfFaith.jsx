@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
+
 
 function StatementOfFaith() {
     return (
-        <div>
+        <div className="faith">
     <div>
-        <h1 class="title" id="statementOfFaith">LetsFundThee's Statement of Faith</h1>
+        <h1 className="title" id="statementOfFaith-title">LetsFundThee's Statement of Faith</h1>
     </div>
-    <ol>
+    <div className="faith" id="statementOfFaith-rules">
+    <ol >
         <li><b>The Trinity: </b>There is 1 single God consisting of 3 separate but equal parts. They consist of: God the Father; God the Son; and God the Holy Spirit. </li>
         <li><b>God the Father: </b></li>
         <li><b>God the Son: </b></li>
@@ -23,6 +25,7 @@ function StatementOfFaith() {
         <li><b>Stewardship: </b>We try to take what God has given us and manage it wisely, to make sure what the donors have given is going to the cause that they are donating to, and to help the missionaries that are going through the website be good stewards themselves.</li>
         <li><b>We are One: </b>We may come from different denominations, speak different languages, and/or have different missions, but we are all followers of Jesus, we are all a part of the body, serving those that are in need of Christ, and we are all a part of the universal church.</li>
     </ol>
+    </div>
 </div>
     )
 }

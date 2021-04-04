@@ -1,9 +1,25 @@
-body{
-  background-color: rgb(18, 46, 73);
-  text-align: center;
-  color: rgb(189, 192, 194);
+/* Key */
+:root{
+  --primary: rgb(18, 46, 73);
+  --text: rgb(189, 192, 194);
 }
 
+/* General */
+body{
+  background-color: var(--primary);
+  text-align: center;
+  color: var(--text);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p{
+  padding-left: 4em;
+  padding-right: 4em;
+  text-align: left;
+}
+
+/* navbar */
 .navbar ul{
   list-style-type: none;
   color: aliceblue;
@@ -11,7 +27,7 @@ body{
   padding-left: 200px;
 }
 
-.navbar li{
+a:link{
   padding: 25px;
   border-right: silver 3px solid;
   border-left: black 3px solid;
@@ -20,6 +36,7 @@ body{
   
 }
 
+/* Home Page */
 #subtitle{
   transform: translate(0px, -25px);
   font-size: 18px;
@@ -43,12 +60,15 @@ body{
 
 
 
-.main-text{
-  padding-left: 3.5em;
-  padding-right: 3.5em;
+
+
+
+#aboutUs-title{
+  text-align: left;
 }
 
-
-#about-title{
+/* Statement of Faith Page */
+.faith{
+  line-height: 2;
   text-align: left;
 }
