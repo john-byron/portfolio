@@ -9,22 +9,41 @@ body{
   background-color: var(--primary);
   text-align: center;
   color: var(--text);
-  padding-left: 10%;
-  padding-right: 10%;
+  
+}
+
+.title{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p{
-  padding-left: 4em;
-  padding-right: 4em;
+  margin-left: 10%;
+  margin-right: 10%;
+  
   text-align: left;
 }
 
+.Bible-Quote{
+  text-align: center;
+}
+
+.Quote-Name{
+  text-align: right;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
 /* navbar */
+
 .navbar ul{
   list-style-type: none;
   color: aliceblue;
   display: flex;
-  padding-left: 200px;
+  justify-content: center; 
+  padding-top: 2%;
+  padding-bottom: 2%;
+
 }
 
 a:link{
@@ -36,6 +55,15 @@ a:link{
   
 }
 
+/* Footer */
+footer{
+  background-color: gray;
+  height: 50vh;
+  width: 100vw;
+  
+}
+
+
 /* Home Page */
 #subtitle{
   transform: translate(0px, -25px);
@@ -43,11 +71,10 @@ a:link{
 }
 
 #image-container{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-areas: "area1" "area2";
-  grid-gap: 5px;
-  
+  display: flex;
+  justify-content: center; 
+  padding: 2%; 
+  gap: 10%;
 }
 
 .container{
