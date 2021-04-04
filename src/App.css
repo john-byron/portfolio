@@ -52,7 +52,7 @@ a:link{
   border-left: black 3px solid;
   background-color: white;
   border-color: silver;
-  
+  text-decoration-style: none;
 }
 
 /* Footer */
@@ -61,7 +61,11 @@ footer{
   height: 50vh;
   width: 100vw;
   
+  
+  
+  
 }
+
 
 
 /* Home Page */
