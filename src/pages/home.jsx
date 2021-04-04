@@ -6,8 +6,7 @@ import {
   Link 
 } from 'react-router-dom';
 
-import './pics/Globe.svg';
-let globe = "./pics/Globe.svg";
+import globe from './pics/Globe.svg';
 
 function Home() {
   return (
@@ -32,7 +31,8 @@ function Home() {
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam rerum quae eius consequatur, temporibus tempora velit cumque repellendus magni nesciunt suscipit beatae cum corrupti voluptate quisquam consectetur corporis excepturi. Itaque.</p>
 
-      <img href="globe" alt="World Map"/>
+
+      <img src={globe} alt="World Map" width="80%"/>
 
       <p className="Bible-Quote main-text" id="Matt28">
       Now the eleven disciples went to Galilee, to the mountain to which Jesus had directed them. And when they saw him they worshiped him, but some doubted. And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”
