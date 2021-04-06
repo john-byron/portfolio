@@ -15,6 +15,7 @@ body{
 .title{
   margin-left: 10%;
   margin-right: 10%;
+  text-align: center;
 }
 
 p{
@@ -106,4 +107,14 @@ footer{
 .faith{
   line-height: 2;
   text-align: left;
+}
+
+#statementOfFaith-rules{
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.statement-text{
+  display: flex;
+  padding-bottom: 50px;
 }
