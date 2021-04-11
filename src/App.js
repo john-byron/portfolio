@@ -40,7 +40,7 @@ export default function App() {
             <Link to="/statement">Statement of Faith</Link>
           </li>
           <li>
-            <Link to="/bible-statement"></Link>
+            <Link to="/bible-statement">Reference</Link>
           </li>
         </ul>
 
