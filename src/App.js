@@ -13,6 +13,7 @@ import About from './pages/About';
 import FFA from './pages/FFA';
 import Counseling from './pages/Counseling';
 import StatementOfFaith from './pages/StatementOfFaith';
+import BibleReference from './pages/BibleReference';
 
 import "./App.css";
 
@@ -38,6 +39,9 @@ export default function App() {
           <li>
             <Link to="/statement">Statement of Faith</Link>
           </li>
+          <li>
+            <Link to="/bible-statement"></Link>
+          </li>
         </ul>
 
         <Switch>
@@ -45,6 +49,7 @@ export default function App() {
           <Route path='/ffa' component={FFA}/>
           <Route path='/counseling' component={Counseling}/>
           <Route path='/statement' component={StatementOfFaith}/>
+          <Route path='/bible-statement' component={BibleReference}/>
           
           
           
