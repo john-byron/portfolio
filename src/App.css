@@ -60,6 +60,14 @@ a:link{
   text-decoration-style: none;
 }
 
+/* Map page */
+#basicMap{
+  background-color: black;
+}
+
+
+
+
 /* Footer */
 footer{
   background-color: gray;
