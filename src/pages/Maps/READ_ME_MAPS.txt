@@ -1,6 +1,6 @@
 This area will be for several different types of maps. Below is the list of the different maps and descriptions about the maps. (All these maps might be combined into one map)
 
-- Basic map: 
+- Basic map: Has information such as: Population; Economic Status; Type of Government; Dominant Religion of the Area; and other generic stats () of the country
 
 - World Watch List map: Info from Open Door's "World Watch List"
 
