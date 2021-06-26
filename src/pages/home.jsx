@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import globe from './pics/Globe.svg';
+import soup from './pics/Soup.png';
 
 function Home() {
   return (
@@ -17,12 +18,12 @@ function Home() {
 
       <div id="image-container">
         <div className="container" id="laptop">
-          <h2>We Do This</h2>
+          <h2>We Take Care of the Difficult Parts</h2>
           <img id="head-image" src="https://image.flaticon.com/icons/png/512/2828/2828957.png" alt="Man working on laptop" width="250px" /></div>
 
         <div className="container" id="serve">
-          <h2>While You Do This</h2>
-          <img id="soup-image" src="https://media.istockphoto.com/vectors/volunteers-feed-the-poor-beggar-and-homeless-people-vector-id1188168141?k=6&m=1188168141&s=170667a&w=0&h=LnrJ7YQkau5nZZAWHyX737MuaxH6yjKoMQ7CxxEV4Tk=" alt="People serving soup" width="250px" />
+          <h2>While You Focus on Your Mission</h2>
+          <img id="soup-image" src={soup} width="250px" />
         </div>
       </div>
       <h3 className="title main-text" id="aboutUs-title">What We Do</h3>
@@ -32,7 +33,7 @@ function Home() {
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam rerum quae eius consequatur, temporibus tempora velit cumque repellendus magni nesciunt suscipit beatae cum corrupti voluptate quisquam consectetur corporis excepturi. Itaque.</p>
 
       <div className="Quote-Container" id="World">
-        <img src={globe} alt="World Map" width="80%" />
+        <img id="globe" src={globe} alt="World Map" />
 
         <p className="Bible-Quote main-text" id="Matt28">
           Now the eleven disciples went to Galilee, to the mountain to which Jesus had directed them. And when they saw him they worshiped him, but some doubted. And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”
