@@ -64,13 +64,13 @@ p{
 
 }
 
-a:link{
+a:Link{
   padding: 25px;
   border-right: silver 3px solid;
   border-left: black 3px solid;
   background-color: white;
   border-color: silver;
-  text-decoration-style: none;
+  text-decoration: none;
 }
 
 /* Map page */
