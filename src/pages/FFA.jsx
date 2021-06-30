@@ -19,7 +19,7 @@ function FFA() {
                     <li>Have a written budget.</li>
                 </ol>
 
-                <li className="RoadMap" id="R">Run Your Research</li>
+                <li className="RoadMap" id="R">Starting Your Market Research</li>
                 <ol className="steps">
                     <li>Read about 1 - 3 missionaries that have successfully been to the field that you are looking to go to.</li>
                     <li>Try to analyse and see what were their successes, how did they measure success, how did they accomplish them, what were their pitfalls, and how they overcame those pitfalls.</li>
@@ -27,21 +27,21 @@ function FFA() {
                     <li>Compare your notes from step 1 with the things that you have read and the conversations that you have had and make changes where needed.</li>
                 </ol>
 
-                <li className="RoadMap" id="E">Enlist Your Team</li>
+                <li className="RoadMap" id="E">Hire Your Team</li>
                 <ol className="steps">
                     <li>Find yourself a CEO to help you with your journey.</li>
                     <li>Have an elevator speech ready and a 1 page document prepared to hand out briefly describing your mission.</li>
                     <li>Try and find a few more members, 3 or 4, to join your team to help you with your mission.</li>
                 </ol>
 
-                <li className="RoadMap" id="E">Enhance Your Brand</li>
+                <li className="RoadMap" id="E">Create Your Brand</li>
                 <ol className="steps">
                     <li>Find color themes and creat a logo that fits around your mission.</li>
                     <li>Create a website where people can read updates and possibly give towards your mission.</li>
                     <li>Have an email and/or newsletter sent out at least every month to keep others informed about your mission.</li>
                 </ol>
 
-                <li className="RoadMap" id="D">Deploy Your Team</li>
+                <li className="RoadMap" id="D">Marketing and Advertising</li>
                 <ol className="steps">
                     <li>Create a fictional bio of what you think would be the perfect donor for you.</li>
 

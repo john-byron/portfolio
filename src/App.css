@@ -178,6 +178,7 @@ footer{
   font-size: 2rem;
   text-align: start;
   margin-left:12vw ;
+  list-style: square;
 }
 
 .steps>li{
