@@ -61,7 +61,6 @@ p{
 
 .navbar ul{
   list-style-type: none;
-  color: #000000;
   display: flex;
   justify-content: center; 
   padding-top: 2%;
@@ -73,12 +72,16 @@ p{
   padding: 25px;
   border-right: silver 3px solid;
   border-left: black 3px solid;
-  background-color: black;
-  color: white;
+  background-color: var(--text);
+  color: var(--primary);
   border-color: silver;
   text-decoration: none;
+  font-weight: bold;
 }
-
+.navbar a:visited{
+  background-color: var(--text);
+  color: var(--primary);
+}
 .dropdown{
   position: relative;
   display: inline-block;
@@ -87,6 +90,7 @@ p{
 .dropdown-content{
   display: none;
   position: absolute;
+  z-index: 1;
   
 }
 
@@ -100,6 +104,19 @@ p{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  padding-top: 1rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:var(--primary);
+  color: var(--text);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn{
+  background-color: var(--primary);
+  color: var(--text);
 }
 
 /* Map page */

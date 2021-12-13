@@ -41,12 +41,12 @@ export default function App() {
       <div className="navbar">
         <div className="buffer">
           
-            <a href="/">Home</a>
+            <a className="dropbtn" href="/">Home</a>
           
 
           <div className="dropdown">
             
-              <a href="/Services">Services</a>
+              <a className="dropbtn" href="/Services">Services</a>
 
 
               <div className="dropdown-content">
@@ -62,7 +62,7 @@ export default function App() {
 
           <div className="dropdown">
             
-              <a href="/Resources">Resources</a>
+              <a className="dropbtn" href="/Resources">Resources</a>
 
               <div className="dropdown-content">
                 <a href="/MissionCheckList">Missionary Check List</a>
@@ -79,7 +79,7 @@ export default function App() {
 
           <div className="dropdown">
             
-              <a href="/About" >About Us</a>
+              <a className="dropbtn" href="/About" >About Us</a>
 
               <div className="dropdown-content">
                   <a href="/statement">Statement of Faith</a>
@@ -91,7 +91,7 @@ export default function App() {
           </div>
 
           <div className="dropdown">
-            <a href="/References">References</a>
+            <a className="dropbtn" href="/References">References</a>
 
               <div className="dropdown-content">
                   <a href="/bible-statement">Bible References</a>
