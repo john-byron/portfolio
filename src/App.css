@@ -54,9 +54,14 @@ p{
   width: 100%;
 }
 
+.buffer{
+  padding-bottom: 2.5em;
+
+}
+
 .navbar ul{
   list-style-type: none;
-  color: aliceblue;
+  color: #000000;
   display: flex;
   justify-content: center; 
   padding-top: 2%;
@@ -64,13 +69,37 @@ p{
 
 }
 
-a:Link{
+.navbar a:Link{
   padding: 25px;
   border-right: silver 3px solid;
   border-left: black 3px solid;
-  background-color: white;
+  background-color: black;
+  color: white;
   border-color: silver;
   text-decoration: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* Map page */
@@ -84,12 +113,13 @@ a:Link{
 /* Footer */
 footer{
   background-color: gray;
-  height: 20vh;
+  /* height: 20vh; */
   width: 100vw;
-  margin-top: 10vh;
-  
-  
-  
+  margin-top: 10vh;  
+}
+
+.foot-links{
+  text-align: left;
 }
 
 
@@ -151,6 +181,7 @@ footer{
 #statementOfFaith-rules{
   margin-left: 15%;
   margin-right: 10%;
+  padding-top: 5%;
 }
 
 .statement-text{
@@ -192,4 +223,11 @@ footer{
   transform: scale(3);
   padding: .25rem 1rem;
   margin-top: 5vw;
+}
+
+/* Contact Form */
+.form-description{
+  height: 40vh;
+  width: 80vw;
+  text-align: start;
 }

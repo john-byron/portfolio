@@ -5,18 +5,18 @@ function StatementOfFaith() {
     return (
         <div className="faith">
             <div id="statementOfFaith-header">
-                <h1 className="title" id="statementOfFaith-title">LetsFundThee's Statement of Faith</h1>
+                <h1 className="title" id="statementOfFaith-title">Our Statement of Faith</h1>
 
                 <p className="faith" id="statementOfFaith-intro">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui provident, blanditiis ipsa accusamus a laudantium corporis ut voluptates, eos praesentium quo placeat quae distinctio deserunt tempora quidem alias hic molestiae.
-        </p>
+                </p>
             </div>
             <div className="faith" id="statementOfFaith-rules">
                 <ol >
                     <li><b>The Trinity: </b>
                         <span className="statement-text">
                             There is 1 single God consisting of 3 separate but equal parts. They consist of: God the Father; God the Son; and God the Holy Spirit.
-                    </span>
+                        </span>
                     </li>
 
                     <li><b>God the Father: </b>

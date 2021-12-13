@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
   Link
 } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ function Home() {
 
         <div className="container" id="serve">
           <h2>While You Focus on Your Mission</h2>
-          <img id="soup-image" src={soup} width="250px" />
+          <img id="soup-image" src={soup} alt="Soup kitchen" width="250px" />
         </div>
       </div>
       <h3 className="title main-text" id="aboutUs-title">What We Do</h3>

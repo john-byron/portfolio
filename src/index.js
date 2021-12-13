@@ -5,12 +5,11 @@ import App from './App';
 import Footer from './Footer';
 
 
-
 ReactDOM.render(
   <div>
     <App />
     <Footer />
-    </div>
+  </div>
   ,
   document.getElementById('root')
 );
