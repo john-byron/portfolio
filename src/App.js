@@ -50,7 +50,7 @@ export default function App() {
 
 
               <div className="dropdown-content">
-                <a href="/Admin">Help With The Boring Stuff</a>
+                <a href="/Admin">Help With Administration</a>
                 <a href="/FFA">Help With Fundraising</a>
                 <a href="/Counseling">Help With Your Mental State</a>
               </div>
@@ -95,7 +95,6 @@ export default function App() {
 
               <div className="dropdown-content">
                   <a href="/bible-statement">Bible References</a>
-                  <a href="/interesting-facts" Interesting Facts>Intersting Facts</a>
                   <a href="/maps">Map</a>
               </div>
 

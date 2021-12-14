@@ -31,6 +31,8 @@ p{
   width: 75%;
   margin: auto;
   text-align: justify;
+  line-height: 2;
+  padding: 1rem 0;
 }
 
 /* .Quote-Container{ 
@@ -40,6 +42,7 @@ p{
 .Bible-Quote{
   text-align: center;
   padding-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .Quote-Name{
@@ -206,6 +209,18 @@ footer{
   padding-bottom: 50px;
 }
 
+/* Services Page */
+.services{
+border: black solid 3px;
+margin: 2rem;
+padding:1rem;
+width: 25rem;
+}
+
+.services img{
+  width: 20rem;
+}
+
 
 /* Fundraising page */
 .ffa{
@@ -241,6 +256,21 @@ footer{
   padding: .25rem 1rem;
   margin-top: 5vw;
 }
+
+
+/* Resources Page */
+.resources{
+  border: black solid 3px;
+  margin: 2rem;
+  padding:1rem;
+  width: 25rem;
+  }
+  
+  .resources img{
+    width: 20rem;
+  }
+
+
 
 /* Contact Form */
 .form-description{

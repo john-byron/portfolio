@@ -26,12 +26,16 @@ function Home() {
           <img id="soup-image" src={soup} alt="Soup kitchen" width="250px" />
         </div>
       </div>
-      <h3 className="title main-text" id="aboutUs-title">What We Do</h3>
 
+      
+      <h3 className="title main-text" id="aboutUs-title">What We Do</h3>
+    
       <p className="section main-text" id="aboutUs-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi atque tempore incidunt mollitia dignissimos odit earum voluptas quibusdam maxime id voluptatum, cupiditate maiores, harum reiciendis architecto saepe voluptate minus officiis?</p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam rerum quae eius consequatur, temporibus tempora velit cumque repellendus magni nesciunt suscipit beatae cum corrupti voluptate quisquam consectetur corporis excepturi. Itaque.</p>
 
+
+      {/* Bible Quote */}
       <div className="Quote-Container" id="World">
         <img id="globe" src={globe} alt="World Map" />
 
