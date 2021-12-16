@@ -270,7 +270,90 @@ width: 25rem;
     width: 20rem;
   }
 
+/* Budget Page */
+#budget-main-container{
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
 
+.budget-title{
+  padding-left: 2vw;
+
+}
+
+.container-income, .container-expense{
+  display: flex;
+  margin: .35vw;
+  
+}
+
+.Budget input{
+  margin: .35vw;
+
+}
+
+.notes{
+  width: 58%;
+  margin: .35vw;
+  
+}
+
+textarea{
+  width: 100%;
+}
+
+
+.sub h4{
+  padding-left: 4vw;
+  width: 23vw;
+}
+
+.sub h4::before{
+  content: "- ";
+}
+
+.Budget h4{
+  padding-left: 2vw;
+  width: 25vw;
+}
+
+.Budget-Total h3{
+  color: white;
+}
+
+#income-container h3,
+#total-income{
+  background-color: hsl(120, 100%, 25%);
+}
+
+#expense-container h3,
+#total-expense{
+  background-color: hsl(0, 100%, 50%);
+}
+
+.total{
+ display:flex;
+ align-self: center;
+  position: fixed;
+ bottom: 0;
+}
+.total h3{
+ width: 33vw;
+
+}
+
+#final-total{
+  background-color: hsl(240, 100%, 50%);
+}
+
+.container-income{
+  background-color: hsl(120, 78%, 79%);
+}
+
+.container-expense{
+  background-color: hsl(0, 83%, 73%);
+}
 
 /* Contact Form */
 .form-description{
