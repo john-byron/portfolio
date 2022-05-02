@@ -67,7 +67,7 @@ export default function App() {
               <div className="dropdown-content">
                 <a href="/MissionCheckList">Missionary Check List</a>
                 <a href="/Books">Books To Read</a>
-                <a href="/interesting-facts" Interesting Facts>Intersting Facts</a>
+                <a href="/interesting-facts" >Intersting Facts</a>
                 <a href="/AreasThatNeedMissionaries">Areas That Need Missionaries</a>
                 <a href="/Budget">Help with Budgeting For Your Mission</a>
                 <a href="/Blog">Our Blog</a>

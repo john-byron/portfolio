@@ -8,7 +8,7 @@ import {
 
 import globe from './pics/Globe.svg';
 import soup from './pics/Soup.png';
-
+import computer from './pics/Computer.png';
 function Home() {
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function Home() {
       <div id="image-container">
         <div className="container" id="laptop">
           <h2>We Take Care of the Difficult Parts</h2>
-          <img id="head-image" src="https://image.flaticon.com/icons/png/512/2828/2828957.png" alt="Man working on laptop" width="250px" /></div>
+          <img id="head-image" src={computer} alt="Man working on laptop" width="500px" /></div>
 
         <div className="container" id="serve">
           <h2>While You Focus on Your Mission</h2>

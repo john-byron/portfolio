@@ -6,7 +6,13 @@ function FFA() {
             <h1 className="ffa-title">Fully Funded Academy</h1>
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum ullam illum ab minus dolore impedit aperiam vel, mollitia suscipit atque molestiae provident cupiditate aliquam magnam numquam assumenda aut! Numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sunt explicabo quos odio quis aliquid molestiae in aliquam officia suscipit rerum harum soluta alias, deleniti incidunt, blanditiis cumque ipsam beatae.
+
+                {/* Possible Starting Paragraph:
+                Fundraising is hard. Getting people (almost all of them are strangers to some point) to give you their hard earned money so you might have a chance to tell other people (most defiantly all are strangers) about Jesus.  
+
+                Well, we are hear to help. Below are some guidelines that have been proven to work. Interested? Tale a look! 
+                */}
             </p>
             <ol className="RoadMap" id="FREEDOM">
 
@@ -27,11 +33,11 @@ function FFA() {
                     <li>Compare your notes from step 1 with the things that you have read and the conversations that you have had and make changes where needed.</li>
                 </ol>
 
-                <li className="RoadMap" id="E">Hire Your Team</li>
+                <li className="RoadMap" id="E">Enlist Your Team</li>
                 <ol className="steps">
-                    <li>Find yourself a CEO to help you with your journey.</li>
-                    <li>Have an elevator speech ready and a 1 page document prepared to hand out briefly describing your mission.</li>
-                    <li>Try and find a few more members, 3 or 4, to join your team to help you with your mission.</li>
+                    <li>Find yourself a person that believes in your mission to help you with your journey. This person should be organized and able to take the lead when needed.</li>
+                    <li>Prepare an elevator speech  and a 1 page document prepared to hand out briefly describing your mission.</li>
+                    <li>Try and find a few more members, 3 or 4, that believe in you and your mission to join your team to help you with your mission.(These members, along with the other member that you found earlier, will be your greatest strength when it comes preparing for the mission in the future steps)</li>
                 </ol>
 
                 <li className="RoadMap" id="E">Create Your Brand</li>

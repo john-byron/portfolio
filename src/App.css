@@ -138,10 +138,17 @@ footer{
   margin-top: 10vh;  
 }
 
-.foot-links{
+.foot-links a:Link{
   text-align: left;
+  text-decoration: none;
+  color: var(--primary);
 }
 
+.foot-links a:visited{
+  text-align: left;
+  text-decoration: none;
+  color: var(--primary);
+}
 
 
 /* Home Page */
@@ -169,7 +176,7 @@ footer{
   transform: scale(1.5);
 }
 #head-image{
-  margin: 5% 0;
+  margin: -5% -50%;
 }
 
 .container{
@@ -212,7 +219,8 @@ footer{
 /* Services Page */
 .services{
 border: black solid 3px;
-margin: 2rem;
+background-color: rgb(18, 46, 100);
+margin: 2rem auto;
 padding:1rem;
 width: 25rem;
 }
@@ -261,7 +269,8 @@ width: 25rem;
 /* Resources Page */
 .resources{
   border: black solid 3px;
-  margin: 2rem;
+  background-color: rgb(18, 46, 100);
+  margin: 2rem auto;
   padding:1rem;
   width: 25rem;
   }

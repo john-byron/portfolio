@@ -17,10 +17,15 @@ function Books() {
         <div>
             <h1>Books That Might Help You With Your Mission</h1>
 
-            <img src="" alt="" id="image" />
-            <h3 id="title"></h3>
-            <h4 id="author"></h4>
-            <p id="description"></p>
+            
+            {/* for (let i =0; i<books.length; i++) {
+                
+                <img className="book-list" id="image[i]" src=[books.Photo] alt="Image of the book [books.Title]"  />
+                <h3  className="book-list" id="title[i]">[books.Title]</h3>
+                <h4  className="book-list" id="author[i]">[books.Author]</h4>
+                <p   className="book-list" id="description[i]">[books.Description]</p>
+                
+            } */}
         </div>
     )
 }
